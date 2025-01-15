@@ -93,19 +93,26 @@
        }
        /* Mobile Devices */
 
-      @media screen and (min-width: 510px) and (max-width: 768px) {
-       
+      @media screen and (min-width: 480px) and (max-width: 768px) {
+        nav{
+            position: sticky;
+            top: 0;
+        } 
         .search-1{
             display: none;
         }
         .pages{
             display: none;
         }
-        
         .menu{
             height: 40px;
-            display: block;
-           
+            display: block; 
+        }
+        .container{
+            height: auto;
+        }
+        .sub-container{
+            margin: 30px auto;
         }
       }
 
